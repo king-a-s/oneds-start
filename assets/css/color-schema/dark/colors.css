@@ -1,0 +1,294 @@
+body {
+    background: #0c0e10;
+    color: #f0f0f1;
+}
+
+h1 {
+    color: #dfdfdf;
+}
+
+h2,
+h3 {
+    color: #dfdfdf;
+}
+
+.form-table th,
+.form-wrap label {
+    color: #c3c4c7;
+}
+
+.color-option.selected,
+.color-option:hover {
+    background: #3c434a;
+}
+
+
+#screen-meta-links .show-settings {
+    border: 1px solid #2c3338;
+    background: #2c3338;
+
+    border-top: 1px solid #1d2327;
+    color: #fff;
+}
+
+#screen-meta-links .show-settings:active,
+#screen-meta-links .show-settings:focus,
+#screen-meta-links .show-settings:hover {
+    color: #f6f7f7;
+}
+
+.postbox {
+    border: 1px solid #2c3338;
+    background: #1d2327;
+}
+
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+select,
+textarea {
+    border: 1px solid #a7aaad;
+    background-color: #0c0e10;
+    color: #c3c4c7;
+}
+
+#activity-widget #the-comment-list .comment-item {
+    background: #191e22;
+}
+
+.wp-core-ui .button,
+.wp-core-ui .button-secondary {
+    background: #161b1e;
+}
+
+.activity-block {
+    border-bottom: 1px solid #a5a5a5;
+}
+
+.community-events-footer {
+    border-top: 1px solid #a5a5a5;
+}
+
+.community-events .activity-block.last {
+    border-bottom: 1px solid #a5a5a5;
+}
+
+.wrap .add-new-h2,
+.wrap .add-new-h2:active,
+.wrap .page-title-action,
+.wrap .page-title-action:active {
+    background: #161b1e;
+}
+
+#screen-meta {
+    background-color: #141719;
+    border-color: #2c3338;
+}
+
+.wp-core-ui select {
+    color: #a7aaad;
+    border-color: #8c8f94;
+    background: #000 url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E) no-repeat right 5px top 55%;
+}
+
+.comment-ays,
+.feature-filter,
+.imgedit-group,
+.popular-tags,
+.stuffbox,
+.widgets-holder-wrap,
+.wp-editor-container,
+p.popular-tags,
+table.widefat {
+    background: #141719;
+}
+
+.alternate,
+.striped>tbody>:nth-child(odd),
+ul.striped>:nth-child(odd) {
+    background-color: #060707;
+}
+
+.widefat tfoot tr td,
+.widefat tfoot tr th,
+.widefat thead tr td,
+.widefat thead tr th {
+    color: #a5a5a5;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    background: #000;
+}
+
+.wp-core-ui .button-secondary:hover,
+.wp-core-ui .button.hover,
+.wp-core-ui .button:hover,
+.wrap .add-new-h2:hover,
+.wrap .page-title-action:hover {
+    background: #000001;
+}
+
+.wp-core-ui .button-disabled,
+.wp-core-ui .button-secondary.disabled,
+.wp-core-ui .button-secondary:disabled,
+.wp-core-ui .button-secondary[disabled],
+.wp-core-ui .button.disabled,
+.wp-core-ui .button:disabled,
+.wp-core-ui .button[disabled] {
+    background: #060707 !important;
+}
+
+.acf-fields.-left>.acf-field:before {
+    background: #14171a !important;
+}
+
+#major-publishing-actions {
+    background: #161b1e;
+}
+
+.categorydiv div.tabs-panel,
+.customlinkdiv div.tabs-panel,
+.posttypediv div.tabs-panel,
+.taxonomydiv div.tabs-panel,
+.wp-tab-panel {
+    background-color: #0c0e10;
+}
+
+.wp-tab-active,
+ul.add-menu-item-tabs li.tabs,
+ul.category-tabs li.tabs {
+    border: 1px solid #2c3338;
+    border-bottom-color: #fff;
+    background-color: #161b1e;
+}
+
+#post-body ul.add-menu-item-tabs li.tabs a,
+#post-body ul.category-tabs li.tabs a,
+#side-sortables .add-menu-item-tabs .tabs a,
+#side-sortables .category-tabs .tabs a,
+.wp-tab-bar .wp-tab-active a {
+    color: #afafaf;
+}
+
+.plugins tr {
+    background: #141719;
+}
+
+.notice,
+div.error,
+div.updated {
+    background: #000;
+}
+
+.community-events ul {
+    background-color: #1c1f22;
+}
+
+.community-events li {
+    color: inherit;
+}
+
+.community-events li:first-child {
+    border: inherit;
+}
+
+span.folder-label {
+    color: initial;
+}
+
+#contextual-help-back {
+    background: initial;
+}
+
+.contextual-help-tabs .active {
+    background: #1d2327;
+}
+
+.contextual-help-tabs .active a {
+    color: #ffffff;
+}
+
+table.odsWidget tr:nth-child(odd) {
+    background: #2c3338 !important;
+}
+
+a {
+    color: #6291b6;
+}
+
+.widefat td,
+.widefat th {
+    color: #c3c4c7;
+}
+
+.widefat ol,
+.widefat p,
+.widefat ul {
+    color: #9ca2a7;
+}
+
+.plugins .active td,
+.plugins .active th {
+    background-color: #1d2327;
+}
+
+#wpfooter {
+    color: #a7aaad;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #1d2327 !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #fff !important;
+}
+
+.select2-dropdown {
+    background-color: #1d2327 !important;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background-color: #2c3338 !important;
+}
+
+.wp-filter {
+    border: 1px solid #2c3338;
+    background: #1d2327;
+    color: #c4c4c4;
+}
+
+.filter-links .current {
+    border-bottom: 4px solid #646970;
+    color: #d1d1d1;
+}
+
+.plugin-card-bottom {
+    background-color: #2c3338;
+}
+
+.plugin-card {
+    background-color: #1d2327;
+    border: 1px solid #2c3338;
+}
+
+.filter-links li>a {
+    color: #8c9ba3;
+}
+
+ul#adminmenu a.wp-has-current-submenu:after,
+ul#adminmenu>li.current>a.current:after {
+    border-right-color: #0c0e10;
+}

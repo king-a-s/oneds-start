@@ -1,0 +1,287 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OneDS Start\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-21 11:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: oneds-start"
+
+#: includes/admin-theme-addon.php:391
+msgid "&"
+msgstr ""
+
+#: includes/maintenance-mode-addon.php:118
+msgid ""
+"<h1>Website Under Maintenance</h1><p>Our Website is currently undergoing "
+"scheduled maintenance. Please check back soon.</p>"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:126
+msgid "Addons"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:143
+msgid "All info"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:199
+msgid "API Keys"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:141
+msgid "Browser"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:52
+msgid "Classic Layout"
+msgstr ""
+
+#: includes/maintenance-mode-addon.php:46
+msgid "Content"
+msgstr ""
+
+#: includes/admin-language-switcher.php:114
+msgid "Current dashboard language"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:67
+msgid "Dashboard Label"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:94
+msgid "Dashboard Label Icon"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:40
+msgid "Dashboard Layout"
+msgstr ""
+
+#. page title
+#: includes/oneds-options/includes/options-types/dashboard.php:10
+#: includes/oneds-options/includes/options-types/dashboard.php:11
+#: includes/oneds-options/includes/options-types/dashboard.php:52
+msgid "Dashboard Options"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:20
+msgid "Dashboard Settings Fields"
+msgstr ""
+
+#: includes/oneds-options/includes/options-cpt.php:88
+msgid "Dashboard Settings Page"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:161
+msgid "Disable Admin Dashboard Widgets"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:142
+msgid "Disable Admin Language Switcher"
+msgstr ""
+
+#: includes/maintenance-mode-addon.php:143
+msgid "Disabled"
+msgstr ""
+
+#: includes/maintenance-mode-addon.php:40
+#: includes/maintenance-mode-addon.php:130
+msgid "Enabled"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:215
+msgid "Google Maps API Key"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:180
+msgid "Hello"
+msgstr ""
+
+#. Description of the plugin
+msgid "Just Start Package"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:24
+msgid "Layout"
+msgstr ""
+
+#. page title
+#: includes/maintenance-mode-addon.php:10
+#: includes/maintenance-mode-addon.php:11
+msgid "Maintenance Mode"
+msgstr ""
+
+#: includes/maintenance-mode-addon.php:34
+#: includes/maintenance-mode-addon.php:137
+#: includes/maintenance-mode-addon.php:150
+msgid "Maintenance Mode Settings"
+msgstr ""
+
+#: includes/maintenance-mode-addon.php:134
+#: includes/maintenance-mode-addon.php:147
+msgid "Maintenance Mode: "
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:233
+msgid "MySQL Version"
+msgstr ""
+
+#. Author of the plugin
+#: includes/admin-theme-addon.php:77 includes/admin-theme-addon.php:392
+#: includes/admin-theme-addon.php:466
+msgid "OneDS"
+msgstr ""
+
+#: includes/oneds-options/includes/options-cpt.php:84
+msgid "OneDS Settings Page"
+msgstr ""
+
+#. Name of the plugin
+msgid "OneDS Start"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:54
+msgid "OneDS Theme"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:139
+#: includes/admin-dashboard-widgets-addon.php:187
+msgid "Operating System"
+msgstr ""
+
+#: includes/oneds-options/includes/options-cpt.php:14
+#: includes/oneds-options/includes/options-cpt.php:41
+msgid "Options Page"
+msgstr ""
+
+#: includes/oneds-options/includes/options-cpt.php:13
+#: includes/oneds-options/includes/options-cpt.php:43
+msgid "Options Pages"
+msgstr ""
+
+#: includes/oneds-options/includes/options-types/dashboard.php:76
+#: includes/oneds-options/includes/options-types/theme.php:73
+msgid "Options Updated"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:225
+msgid "PHP max_execution_time"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:221
+msgid "PHP max_input_vars"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:209
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:213
+msgid "PHP post_max_size"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:217
+msgid "PHP upload_max_filesize"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:205
+msgid "PHP Version"
+msgstr ""
+
+#: includes/oneds-options/includes/options-cpt.php:11
+msgctxt "Post Type General Name"
+msgid "options pages"
+msgstr ""
+
+#: includes/oneds-options/includes/options-cpt.php:12
+msgctxt "Post Type Singular Name"
+msgid "Options Page"
+msgstr ""
+
+#: includes/admin-theme-addon.php:389
+msgid "Powered By"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:183
+msgid "Put each sentence on a separate line"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:27
+msgid "Server Information"
+msgstr ""
+
+#: includes/admin-language-switcher.php:151
+msgid "Something went wrong, try again."
+msgstr ""
+
+#: includes/oneds-options/oneds-options.php:9
+msgid "Sorry (OneDS options Plugin) requires (OneDS Start Plugin) to load"
+msgstr ""
+
+#. page title
+#: includes/oneds-options/includes/options-types/theme.php:10
+#: includes/oneds-options/includes/options-types/theme.php:11
+#: includes/oneds-options/includes/options-types/theme.php:49
+msgid "Theme Options"
+msgstr ""
+
+#: includes/oneds-options/includes/options-cpt.php:92
+msgid "Theme Settings Page"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:83
+msgid "User Display Name"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:81
+msgid "User Email"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:77
+msgid "User ID"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:85
+msgid "User Role"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:79
+msgid "Username"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:202
+msgid "Web Server Version"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/dashboard.php:53
+msgid "Wide Layout"
+msgstr ""
+
+#: includes/oneds-options/includes/options-groups/theme.php:35
+msgid ""
+"You can add fields by custom fields settings and set \"Show this fields "
+"group if\" post is equal to Theme Options Page, After that you can use it by "
+"get_field('your_field', ods_options_id('Theme'))"
+msgstr ""
+
+#: includes/admin-language-switcher.php:158
+msgid "You don't have permissions to change language."
+msgstr ""
+
+#. Widget slug.
+#: includes/admin-dashboard-widgets-addon.php:9
+msgid "Your Profile Information"
+msgstr ""
+
+#: includes/admin-dashboard-widgets-addon.php:18
+msgid "Your System Information"
+msgstr ""
