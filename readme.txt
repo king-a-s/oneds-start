@@ -1,8 +1,8 @@
 ﻿=== OneDS Start Package ===
 Contributors: king-a-s
 Tags: OneDS, Admin Dashboard, Admin Theme, Admin Color Scheme, Dark Mode, Admin Widgets, Maintenance Mode, Hello, ACF, Options Pages
-Tested up to: 6.0
-Version: 0.5
+Tested up to: 6.4.2
+Version: 1.0.1
 
 
 Just Start Package
@@ -14,8 +14,7 @@ Just Start Package
 - Maintenance Mode.
 - Admin Language Switcher.
 - Hello Lyrics add-on.
-- Advanced Custom Fields (Just Included Thanks for ACF).
-- Theme Options Page.
+- Advanced Custom Fields (Just Included, Thanks for ACF).
 - Dashboard Options Page.
 
 == Screenshots ==
@@ -53,3 +52,10 @@ Yes it is just start package. other Plugins coming soon.
 
 = 0.5 =
 * new release.
+
+= 1.0 =
+* new release.
+
+= 1.0.1 =
+* Overall code enhancements for improved performance.
+* Upgraded the Included ACF version to 6.2.5.

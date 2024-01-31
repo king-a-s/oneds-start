@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - OneDS Start Package - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-21 11:13+0000\n"
+"PO-Revision-Date: 2023-11-20 17:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,147 +13,212 @@ msgstr ""
 "Project-Id-Version: Plugins - OneDS Start Package - Development (trunk)\n"
 "Language-Team: العربية"
 
-#: includes/admin-theme-addon.php:391
+#: includes/oneds-admin/admin-theme.php:417
 msgid "&"
 msgstr "و"
 
-#: includes/maintenance-mode-addon.php:118
+#: includes/oneds-maintenance-mode/maintenance-mode-page.php:160
+#, fuzzy
+#| msgid ""
+#| "<h1>Website Under Maintenance</h1><p>Our Website is currently undergoing "
+#| "scheduled maintenance. Please check back soon.</p>"
 msgid ""
-"<h1>Website Under Maintenance</h1><p>Our Website is currently undergoing "
+"<h1>System Under Maintenance</h1><p>Our System is currently undergoing "
 "scheduled maintenance. Please check back soon.</p>"
 msgstr ""
 "<h1>الموقع تحت الصيانة</h1><p>موقعنا حاليا يخضع لصيانة مجدولة. الرجاء التحقق "
 "مرة أخرى قريباً.</p>"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:126
+#: includes/oneds-options/includes/options-fields/dashboard.php:112
 msgid "Addons"
 msgstr "الملحقات"
 
-#: includes/admin-dashboard-widgets-addon.php:143
+#: includes/oneds-admin/admin-dashboard-widgets.php:179
 msgid "All info"
 msgstr "كل المعلومات"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:199
+#: includes/oneds-options/includes/options-fields/dashboard.php:224
 msgid "API Keys"
 msgstr "مفاتيح API"
 
-#: includes/admin-dashboard-widgets-addon.php:141
+#: includes/oneds-maintenance-mode/maintenance-mode-fields.php:114
+msgid "Background Color"
+msgstr ""
+
+#: includes/oneds-admin/admin-dashboard-widgets.php:177
 msgid "Browser"
 msgstr "المتصفح"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:52
+#: includes/oneds-options/includes/options-fields/dashboard.php:52
 msgid "Classic Layout"
 msgstr "تخطيط كلاسيكي"
 
-#: includes/maintenance-mode-addon.php:46
+#: includes/oneds-maintenance-mode/maintenance-mode-fields.php:90
 msgid "Content"
 msgstr "المحتوى"
 
-#: includes/admin-language-switcher.php:114
+#: includes/oneds-admin/admin-language-switcher.php:180
 msgid "Current dashboard language"
 msgstr "لغة لوحة التحكم الحالية"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:67
+#: includes/oneds-maintenance-mode/maintenance-mode-fields.php:153
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/oneds-maintenance-mode/maintenance-mode-fields.php:175
+msgid "Custom JS"
+msgstr ""
+
+#: includes/oneds-options/includes/options-pages/dashboard.php:10
+msgid "Dashboard"
+msgstr ""
+
+#: includes/oneds-options/includes/options-fields/dashboard.php:69
 msgid "Dashboard Label"
 msgstr "تسمية لوحة التحكم"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:94
+#: includes/oneds-options/includes/options-fields/dashboard.php:88
 msgid "Dashboard Label Icon"
 msgstr "أيقونة اسم لوحة التحكم"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:40
+#: includes/oneds-options/includes/options-fields/dashboard.php:40
 msgid "Dashboard Layout"
 msgstr "تخطيط لوحة التحكم"
 
-#. page title
-#: includes/oneds-options/includes/options-types/dashboard.php:10
-#: includes/oneds-options/includes/options-types/dashboard.php:11
-#: includes/oneds-options/includes/options-types/dashboard.php:52
-msgid "Dashboard Options"
-msgstr "خيارات لوحة التحكم"
-
-#: includes/oneds-options/includes/options-groups/dashboard.php:20
+#: includes/oneds-options/includes/options-fields/dashboard.php:20
 msgid "Dashboard Settings Fields"
 msgstr "حقول إعدادات لوحة التحكم"
 
-#: includes/oneds-options/includes/options-cpt.php:88
+#: includes/oneds-options/includes/options-cpt.php:85
 msgid "Dashboard Settings Page"
 msgstr "صفحة إعدادات لوحة التحكم"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:161
+#: includes/oneds-options/includes/options-fields/dashboard.php:147
 msgid "Disable Admin Dashboard Widgets"
 msgstr "تعطيل ودجات لوحة التحكم"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:142
+#: includes/oneds-options/includes/options-fields/dashboard.php:128
 msgid "Disable Admin Language Switcher"
 msgstr "تعطيل مبدل لغة الإدارة"
 
-#: includes/maintenance-mode-addon.php:143
+#: includes/oneds-maintenance-mode/maintenance-mode-page.php:61
 msgid "Disabled"
 msgstr "معطّل"
 
-#: includes/maintenance-mode-addon.php:40
-#: includes/maintenance-mode-addon.php:130
+#: includes/oneds-options/includes/options-fields/dashboard.php:166
+msgid "Enable ACF Menu"
+msgstr ""
+
+#: includes/oneds-maintenance-mode/maintenance-mode-fields.php:135
+msgid "Enable full screen mode."
+msgstr ""
+
+#: includes/oneds-options/includes/options-fields/dashboard.php:205
+msgid "Enable No Theme Module"
+msgstr ""
+
+#: includes/oneds-maintenance-mode/maintenance-mode-fields.php:72
+msgid "Enable the maintenance mode."
+msgstr ""
+
+#: includes/oneds-maintenance-mode/maintenance-mode-fields.php:69
+#: includes/oneds-maintenance-mode/maintenance-mode-page.php:48
 msgid "Enabled"
 msgstr "مُفعّل"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:215
+#: includes/oneds-maintenance-mode/maintenance-mode-fields.php:156
+msgid "Enter the custom CSS."
+msgstr ""
+
+#: includes/oneds-maintenance-mode/maintenance-mode-fields.php:178
+msgid "Enter the custom JS."
+msgstr ""
+
+#: includes/oneds-maintenance-mode/maintenance-mode-fields.php:132
+msgid "Full Screen"
+msgstr ""
+
+#: includes/oneds-admin/admin-welcome.php:60
+msgid "Good afternoon"
+msgstr "مساء الخير"
+
+#: includes/oneds-admin/admin-welcome.php:62
+msgid "Good evening"
+msgstr "مساء الخير"
+
+#: includes/oneds-admin/admin-welcome.php:58
+msgid "Good morning"
+msgstr "صباح الخير"
+
+#: includes/oneds-options/includes/options-fields/dashboard.php:240
 msgid "Google Maps API Key"
 msgstr "مفتاح API خرائط غوغل"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:180
+#: includes/oneds-options/includes/options-fields/dashboard.php:185
 msgid "Hello"
 msgstr "مرحبا"
+
+#: includes/oneds-reports/reports.php:23
+msgid "Home"
+msgstr ""
 
 #. Description of the plugin
 msgid "Just Start Package"
 msgstr "مجرد حزمة بداية"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:24
+#: includes/oneds-options/includes/options-fields/dashboard.php:24
 msgid "Layout"
 msgstr "تخطيط"
 
-#. page title
-#: includes/maintenance-mode-addon.php:10
-#: includes/maintenance-mode-addon.php:11
+#: includes/oneds-maintenance-mode/maintenance-mode-page.php:10
+#: includes/oneds-maintenance-mode/maintenance-mode-page.php:228
 msgid "Maintenance Mode"
 msgstr "وضع الصيانة"
 
-#: includes/maintenance-mode-addon.php:34
-#: includes/maintenance-mode-addon.php:137
-#: includes/maintenance-mode-addon.php:150
+#: includes/oneds-maintenance-mode/maintenance-mode-fields.php:33
+#: includes/oneds-maintenance-mode/maintenance-mode-page.php:55
+#: includes/oneds-maintenance-mode/maintenance-mode-page.php:68
 msgid "Maintenance Mode Settings"
 msgstr "إعدادات وضع الصيانة"
 
-#: includes/maintenance-mode-addon.php:134
-#: includes/maintenance-mode-addon.php:147
+#: includes/oneds-maintenance-mode/maintenance-mode-page.php:28
+msgid "Maintenance Mode Settings Page"
+msgstr ""
+
+#: includes/oneds-maintenance-mode/maintenance-mode-page.php:52
+#: includes/oneds-maintenance-mode/maintenance-mode-page.php:65
 msgid "Maintenance Mode: "
 msgstr "وضع الصيانة:"
 
-#: includes/admin-dashboard-widgets-addon.php:233
+#: includes/oneds-admin/admin-dashboard-widgets.php:269
 msgid "MySQL Version"
 msgstr "إصدار MySQL"
 
 #. Author of the plugin
-#: includes/admin-theme-addon.php:77 includes/admin-theme-addon.php:392
-#: includes/admin-theme-addon.php:466
+#: includes/oneds-admin/admin-theme.php:84
+#: includes/oneds-admin/admin-theme.php:418
+#: includes/oneds-admin/admin-theme.php:498
 msgid "OneDS"
 msgstr "ون دي أس"
 
-#: includes/oneds-options/includes/options-cpt.php:84
-msgid "OneDS Settings Page"
-msgstr "صفحة إعدادات ون دي أس"
+#: includes/oneds-options/includes/options-fields/dashboard.php:56
+msgid "OneDS Pro Dark Theme"
+msgstr ""
+
+#: includes/oneds-options/includes/options-fields/dashboard.php:55
+msgid "OneDS Pro Theme"
+msgstr ""
 
 #. Name of the plugin
 msgid "OneDS Start"
 msgstr "ون دي أس إبدأ"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:54
+#: includes/oneds-options/includes/options-fields/dashboard.php:54
 msgid "OneDS Theme"
 msgstr "ثيم ون دي أس"
 
-#: includes/admin-dashboard-widgets-addon.php:139
-#: includes/admin-dashboard-widgets-addon.php:187
+#: includes/oneds-admin/admin-dashboard-widgets.php:175
+#: includes/oneds-admin/admin-dashboard-widgets.php:223
 msgid "Operating System"
 msgstr "نظام التشغيل"
 
@@ -167,38 +232,42 @@ msgstr "صفحة الخيارات"
 msgid "Options Pages"
 msgstr "صفحات الخيارات"
 
-#: includes/oneds-options/includes/options-types/dashboard.php:76
-#: includes/oneds-options/includes/options-types/theme.php:73
+#: includes/oneds-options/includes/options-functions.php:71
+#: includes/oneds-options/includes/options-pages/theme.php:73
 msgid "Options Updated"
 msgstr "الخيارات تم تحديثها"
 
-#: includes/admin-dashboard-widgets-addon.php:225
+#: includes/oneds-options/includes/options-fields/dashboard.php:57
+msgid "Orange Balance"
+msgstr ""
+
+#: includes/oneds-admin/admin-dashboard-widgets.php:261
 msgid "PHP max_execution_time"
 msgstr ""
 
-#: includes/admin-dashboard-widgets-addon.php:221
+#: includes/oneds-admin/admin-dashboard-widgets.php:257
 msgid "PHP max_input_vars"
 msgstr ""
 
-#: includes/admin-dashboard-widgets-addon.php:209
+#: includes/oneds-admin/admin-dashboard-widgets.php:245
 msgid "PHP Memory Limit"
 msgstr "حد ذاكرة PHP"
 
-#: includes/admin-dashboard-widgets-addon.php:213
+#: includes/oneds-admin/admin-dashboard-widgets.php:249
 msgid "PHP post_max_size"
 msgstr ""
 
-#: includes/admin-dashboard-widgets-addon.php:217
+#: includes/oneds-admin/admin-dashboard-widgets.php:253
 msgid "PHP upload_max_filesize"
 msgstr ""
 
-#: includes/admin-dashboard-widgets-addon.php:205
+#: includes/oneds-admin/admin-dashboard-widgets.php:241
 msgid "PHP Version"
 msgstr "إصدار PHP"
 
 #: includes/oneds-options/includes/options-cpt.php:11
 msgctxt "Post Type General Name"
-msgid "options pages"
+msgid "Options Pages"
 msgstr ""
 
 #: includes/oneds-options/includes/options-cpt.php:12
@@ -206,19 +275,36 @@ msgctxt "Post Type Singular Name"
 msgid "Options Page"
 msgstr ""
 
-#: includes/admin-theme-addon.php:389
+#: includes/oneds-admin/admin-theme.php:410
 msgid "Powered By"
 msgstr "يعمل بواسطة"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:183
+#: includes/oneds-options/includes/options-fields/dashboard.php:188
 msgid "Put each sentence on a separate line"
 msgstr "ضع كل عبارة في سطر منفصل"
 
-#: includes/admin-dashboard-widgets-addon.php:27
+#: includes/oneds-options/includes/options-functions.php:75
+msgid "Report ready"
+msgstr ""
+
+#: includes/oneds-reports/reports.php:11 includes/oneds-reports/reports.php:12
+#: includes/oneds-options/includes/options-functions.php:37
+msgid "Reports"
+msgstr "التقارير"
+
+#: includes/oneds-reports/reports.php:44
+msgid "Reports Page"
+msgstr ""
+
+#: includes/oneds-maintenance-mode/maintenance-mode-fields.php:117
+msgid "Select the background color."
+msgstr ""
+
+#: includes/oneds-admin/admin-dashboard-widgets.php:40
 msgid "Server Information"
 msgstr "معلومات المخدم"
 
-#: includes/admin-language-switcher.php:151
+#: includes/oneds-admin/admin-language-switcher.php:215
 msgid "Something went wrong, try again."
 msgstr ""
 
@@ -227,60 +313,65 @@ msgid "Sorry (OneDS options Plugin) requires (OneDS Start Plugin) to load"
 msgstr ""
 
 #. page title
-#: includes/oneds-options/includes/options-types/theme.php:10
-#: includes/oneds-options/includes/options-types/theme.php:11
-#: includes/oneds-options/includes/options-types/theme.php:49
+#: includes/oneds-options/includes/options-pages/theme.php:10
+#: includes/oneds-options/includes/options-pages/theme.php:11
+#: includes/oneds-options/includes/options-pages/theme.php:49
 msgid "Theme Options"
 msgstr "خيارات الثيم"
 
-#: includes/oneds-options/includes/options-cpt.php:92
+#: includes/oneds-options/includes/options-cpt.php:89
 msgid "Theme Settings Page"
 msgstr "صفحة إعدادات الثيم"
 
-#: includes/admin-dashboard-widgets-addon.php:83
+#: includes/oneds-admin/admin-dashboard-widgets.php:117
 msgid "User Display Name"
 msgstr "اسم عرض المستخدم"
 
-#: includes/admin-dashboard-widgets-addon.php:81
+#: includes/oneds-admin/admin-dashboard-widgets.php:115
 msgid "User Email"
 msgstr "البريد الإلكتروني للمستخدم"
 
-#: includes/admin-dashboard-widgets-addon.php:77
+#: includes/oneds-admin/admin-dashboard-widgets.php:111
 msgid "User ID"
 msgstr "المعرف للمستخدم"
 
-#: includes/admin-dashboard-widgets-addon.php:85
+#: includes/oneds-admin/admin-dashboard-widgets.php:119
 msgid "User Role"
 msgstr "دور المستخدم (صلاحيات)"
 
-#: includes/admin-dashboard-widgets-addon.php:79
+#: includes/oneds-admin/admin-dashboard-widgets.php:113
 msgid "Username"
 msgstr "اسم المستخدم"
 
-#: includes/admin-dashboard-widgets-addon.php:202
+#: includes/oneds-admin/admin-dashboard-widgets.php:238
 msgid "Web Server Version"
 msgstr "إصدار مخدم الويب"
 
-#: includes/oneds-options/includes/options-groups/dashboard.php:53
+#. _e('Welcome to OneDS', 'oneds-start');
+#: includes/oneds-admin/admin-welcome.php:52
+msgid "Welcome"
+msgstr "مرحبا"
+
+#: includes/oneds-options/includes/options-fields/dashboard.php:53
 msgid "Wide Layout"
 msgstr "تخطيط عريض"
 
-#: includes/oneds-options/includes/options-groups/theme.php:35
+#: includes/oneds-options/includes/options-fields/theme.php:35
 msgid ""
 "You can add fields by custom fields settings and set \"Show this fields "
 "group if\" post is equal to Theme Options Page, After that you can use it by "
 "get_field('your_field', ods_options_id('Theme'))"
 msgstr ""
 
-#: includes/admin-language-switcher.php:158
+#: includes/oneds-admin/admin-language-switcher.php:222
 msgid "You don't have permissions to change language."
 msgstr ""
 
-#. Widget slug.
-#: includes/admin-dashboard-widgets-addon.php:9
+#. $widget_id = Widget slug.
+#: includes/oneds-admin/admin-dashboard-widgets.php:17
 msgid "Your Profile Information"
 msgstr "معلومات ملفك الشخصي"
 
-#: includes/admin-dashboard-widgets-addon.php:18
+#: includes/oneds-admin/admin-dashboard-widgets.php:27
 msgid "Your System Information"
 msgstr "معلومات نظامك"

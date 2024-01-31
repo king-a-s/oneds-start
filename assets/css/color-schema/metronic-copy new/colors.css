@@ -1,0 +1,294 @@
+/**
+OneDS Admin Theme
+*/
+
+/**
+Admin Colors
+
+#0073aa - main color
+
+#1e1e1e - menu background
+
+#2c3338 - menu background light
+
+#bbbbbb - menu text
+
+#f1f3f6 - background
+
+#5d5d5d - text
+
+#bbbbbb - text light
+
+#fff - white
+
+#000 - black
+
+*/
+
+
+/* html, body, Admin Wrap */
+
+html {
+    --wp-admin--admin-bar--height: 60px;
+    scroll-padding-top: var(--wp-admin--admin-bar--height);
+}
+
+html.wp-toolbar {
+    padding-top: 60px;
+}
+
+body {
+    background: #f1f3f6;
+    color: #5d5d5d;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    min-width: 320px;
+}
+
+/* Admin Bar */
+
+#wpadminbar {
+    height: 60px;
+    background: #0073aa;
+}
+
+#wpadminbar .quicklinks>ul>li>a {
+    padding: 12px;
+    height: 36px;
+}
+
+#wpadminbar .quicklinks .ab-empty-item,
+#wpadminbar .quicklinks a,
+#wpadminbar .shortlink-input {
+    height: 36px;
+    display: block;
+    padding: 12px;
+    margin: 0;
+}
+
+#wpadminbar .ab-top-menu>li.hover>.ab-item,
+#wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,
+#wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item,
+#wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus {
+    background: #2c333866;
+}
+
+
+/** OneDS Logo */
+#wp-admin-bar-oneds_title {
+    padding: 0 !important;
+    background: #1e1e1e !important;
+    width: 250px;
+    height: 60px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#wp-admin-bar-oneds_title.oneds_title_oneds>.ab-item {
+    font-size: large;
+    display: table-cell;
+    vertical-align: middle;
+    height: inherit;
+    width: 250px;
+    text-align: left;
+    color: #fff;
+    padding: 0 !important;
+    padding-left: 60px !important;
+    margin: 0 !important;
+}
+
+#wp-admin-bar-oneds_title ::after {
+    content: "";
+    background-size: auto 32px !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 60px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#wp-admin-bar-oneds_collapse_button {
+    background: #1e1e1e !important;
+    height: 60px;
+    width: 50px;
+    padding: 0 !important;
+}
+
+li#collapse-menu {
+    height: 100%;
+    width: 100%;
+}
+
+#collapse-button {
+    height: 100%;
+    width: 100%;
+}
+
+#collapse-button .collapse-button-icon {
+    width: 100%;
+    height: 100%;
+    display: contents;
+}
+
+
+#collapse-button .collapse-button-icon:after,
+#collapse-button .collapse-button-label {
+    color: #2c3338;
+}
+
+#collapse-button .collapse-button-label {
+    display: none;
+}
+
+.auto-fold .interface-interface-skeleton {
+    left: 300px;
+}
+
+.interface-interface-skeleton {
+    top: 60px;
+}
+
+#wp-admin-bar-oneds_collapse_button {
+    margin-right: 10px !important;
+}
+
+img.avatar.avatar-26.photo {
+    margin-right: 10px !important;
+}
+
+#wp-admin-bar-comments {
+    display: none;
+}
+
+
+
+
+/* Admin Menu */
+
+#adminmenuback {
+    position: fixed;
+    top: 0;
+    bottom: -120px;
+    z-index: 9900;
+    width: 300px;
+    background-color: #1e1e1e;
+}
+
+#adminmenuwrap {
+    position: relative;
+    float: left;
+    z-index: 9990;
+    width: 300px;
+    background-color: #1e1e1e;
+}
+
+#adminmenu {
+    clear: left;
+    margin: 12px 0;
+    padding: 0 16px;
+    list-style: none;
+    width: calc(100% - 32px);
+    background-color: #1e1e1e;
+}
+
+#adminmenu a {
+    display: block;
+    line-height: 1.5;
+    padding: 2px 5px;
+    color: #bbbbbb;
+    border-radius: 2px;
+}
+
+#adminmenu a.menu-top {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 2px 5px;
+}
+
+#adminmenu div.wp-menu-name {
+    padding-left: 42px;
+}
+
+#adminmenu .wp-submenu {
+    width: 100%;
+    background-color: #1d2327;
+    list-style: none;
+    position: absolute;
+    top: -1000em;
+    left: 160px;
+    overflow: visible;
+    word-wrap: break-word;
+    padding: 7px 0 8px;
+    z-index: 9999;
+    background-color: #1e1e1e;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 20%);
+}
+
+ul#adminmenu a.wp-has-current-submenu:after,
+ul#adminmenu>li.current>a.current:after {
+    display: none;
+}
+
+#adminmenu a:focus,
+#adminmenu a:hover,
+.folded #adminmenu .wp-submenu-head:hover {
+    box-shadow: none;
+}
+
+#adminmenu li.wp-has-submenu.wp-not-current-submenu:focus-within:after,
+#adminmenu li.wp-has-submenu.wp-not-current-submenu:hover:after {
+    display: none;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
+#adminmenu .wp-menu-arrow,
+#adminmenu .wp-menu-arrow div,
+#adminmenu li.current a.menu-top,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+    background: #2c3338;
+    color: #fff;
+}
+
+
+#adminmenu div.wp-menu-image:before {
+    color: transparent;
+    -webkit-text-stroke: 1px #bbbbbb;
+}
+
+/**
+    folded
+*/
+.folded #adminmenu,
+.folded #adminmenu li.menu-top,
+.folded #adminmenuback,
+.folded #adminmenuwrap {
+    width: 36px;
+    padding: 0;
+}
+
+#adminmenu a.menu-top {
+    /* padding: 0; */
+}
+
+
+/* Admin Content */
+
+#wpcontent {
+    margin-left: 300px;
+}
+
+/* Admin Footer */
+
+#wpfooter {
+    margin-left: 300px;
+}
+
+/* Welcome Panel */
+
+.welcome-panel {
+    background-color: #0073aa;
+}

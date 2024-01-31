@@ -4,31 +4,36 @@
  * Create Options Admin Pages
  */
 
-include_once(plugin_dir_path(__FILE__) . '/options-cpt.php');
+include_once(plugin_dir_path(__FILE__) . '/options-cpt.php'); // Create Options CPT
 
-include_once(plugin_dir_path(__FILE__) . '/options-get-id.php');
+include_once(plugin_dir_path(__FILE__) . '/options-functions.php'); // Get Options ID Function
 
-include_once(plugin_dir_path(__FILE__) . '/options-types/dashboard.php');
+include_once(plugin_dir_path(__FILE__) . '/options-pages/dashboard.php'); // Create Dashboard Options Page
 
-include_once(plugin_dir_path(__FILE__) . '/options-types/theme.php');
-
-include_once(plugin_dir_path(__FILE__) . '/options-groups/dashboard.php');
-
-include_once(plugin_dir_path(__FILE__) . '/options-groups/theme.php');
+include_once(plugin_dir_path(__FILE__) . '/options-fields/dashboard.php'); // Create Dashboard Options Group (Fields)
 
 // END PART
 
 
 
 /**
- * Run code on the admin options pages
+ * Run options form code on the admin options pages
  */
 
-function odsoptions_this_screen()
+function ods_options_this_screen($current_screen)
 {
-        acf_form_head();
+
+        // if current screen is options page
+        if ($current_screen->parent_base == 'optionspage') {
+
+                acf_form_head();
+
+                // echo '<pre>';
+                // var_dump($current_screen);
+                // echo '</pre>';
+        }
 }
 
-add_action('current_screen', 'odsoptions_this_screen');
+add_action('current_screen', 'ods_options_this_screen');
 
 // END PART

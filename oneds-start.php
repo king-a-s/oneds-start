@@ -2,7 +2,7 @@
 /*
 Plugin Name: OneDS Start
 Description: Just Start Package
-Version: 0.5
+Version: 1.0.1
 Author: OneDS
 Text Domain: oneds-start
 Domain Path: /languages
@@ -18,7 +18,6 @@ if (!defined('ABSPATH')) {
 
 function ods_load_textdomain()
 {
-
     load_plugin_textdomain('oneds-start', false, dirname(plugin_basename(__FILE__)) . '/languages');
 }
 

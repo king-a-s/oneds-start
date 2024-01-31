@@ -1,17 +1,17 @@
 <?php
 
 /**
- * Add ACF Plugin to OneDS
+ * Add Advanced Custom Fields Plugin to OneDS
  */
 
-include_once(plugin_dir_path(__FILE__) . '/acf-function.php');
+include_once(plugin_dir_path(__FILE__) . '/acf/acf-function.php');
 
 // END PART
 
 
 
 /**
- * Add Options Pages module to OneDS
+ * Add OneDS Options Pages module to OneDS
  */
 
 include_once(plugin_dir_path(__FILE__) . '/oneds-options/oneds-options.php');
@@ -21,21 +21,26 @@ include_once(plugin_dir_path(__FILE__) . '/oneds-options/oneds-options.php');
 
 
 /**
- * Add Dashboard Pages Class to OneDS
+ * Add OneDS Admin module to OneDS
  */
 
-include_once(plugin_dir_path(__FILE__) . '/class-ods-dashboard-page.php');
+// Add Admin Theme functions
+include_once(plugin_dir_path(__FILE__) . '/oneds-admin/admin-theme.php');
 
-// END PART
+// Add Admin Color Schemes (OneDS Themes)
+include_once(plugin_dir_path(__FILE__) . '/oneds-admin/admin-color-schemes.php');
 
+// Add Admin Language Switcher
+include_once(plugin_dir_path(__FILE__) . '/oneds-admin/admin-language-switcher.php');
 
+// Add Admin Dashboard Widgets
+include_once(plugin_dir_path(__FILE__) . '/oneds-admin/admin-dashboard-widgets.php');
 
-/**
- * Add OneDS Admin Theme
- */
+// Add Admin Lyrix (Hello)
+include_once(plugin_dir_path(__FILE__) . '/oneds-admin/admin-hello.php');
 
-include_once(plugin_dir_path(__FILE__) . '/admin-theme-addon.php');
-include_once(plugin_dir_path(__FILE__) . '/admin-color-scheme.php');
+// Add Admin Welcome section
+include_once(plugin_dir_path(__FILE__) . '/oneds-admin/admin-welcome.php');
 
 // END PART
 
@@ -45,50 +50,27 @@ include_once(plugin_dir_path(__FILE__) . '/admin-color-scheme.php');
  * Add OneDS Maintenance Mode
  */
 
-include_once(plugin_dir_path(__FILE__) . '/maintenance-mode-addon.php');
+include_once(plugin_dir_path(__FILE__) . 'oneds-maintenance-mode/maintenance-mode-page.php');
+include_once(plugin_dir_path(__FILE__) . 'oneds-maintenance-mode/maintenance-mode-fields.php');
 
 // END PART
 
 
 
 /**
- * Add OneDS Admin Lyrix (Hello)
+ * Add OneDS Reports Pages module to OneDS
  */
 
-include_once(plugin_dir_path(__FILE__) . '/admin-hello-addon.php');
+include_once(plugin_dir_path(__FILE__) . '/oneds-reports/reports.php');
 
 // END PART
 
 
 
 /**
- * Add a OneDS Widgets to Admin dashboard
+ * Add OneDS No Theme Module to OneDS
  */
 
-if (function_exists('ods_options_id')) {
-  if (!empty(ods_options_id('Dashboard'))) {
-
-    if (!get_post_meta(ods_options_id('Dashboard'), 'admin_dashboard_widgets', true)) {
-      include_once(plugin_dir_path(__FILE__) . '/admin-dashboard-widgets-addon.php');
-    }
-  }
-}
-
-// END PART
-
-
-
-/**
- * Add Language Switcher Plugin to OneDS
- */
-
-if (function_exists('ods_options_id')) {
-  if (!empty(ods_options_id('Dashboard'))) {
-
-    if (!get_post_meta(ods_options_id('Dashboard'), 'admin_language_switcher', true)) {
-      include_once(plugin_dir_path(__FILE__) . '/admin-language-switcher.php');
-    }
-  }
-}
+include_once(plugin_dir_path(__FILE__) . '/oneds-no-theme/no-theme.php');
 
 // END PART

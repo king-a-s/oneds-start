@@ -4,11 +4,11 @@
  * Register Custom Post Type options pages.
  */
 
-function odsoptions_post_type()
+function ods_options_post_type()
 {
 
     $labels = array(
-        'name'                  => _x('options pages', 'Post Type General Name', 'oneds-start'),
+        'name'                  => _x('Options Pages', 'Post Type General Name', 'oneds-start'),
         'singular_name'         => _x('Options Page', 'Post Type Singular Name', 'oneds-start'),
         'menu_name'             => __('Options Pages', 'oneds-start'),
         'name_admin_bar'        => __('Options Page', 'oneds-start'),
@@ -42,7 +42,7 @@ function odsoptions_post_type()
         'labels'                => $labels,
         'description'           => __('Options Pages', 'oneds-start'),
         'public'                => false,
-        //'hierarchical'          => false, //Default false.
+        'hierarchical'          => true, //Default false.
         //'exclude_from_search'   => true, //Default is the opposite value of $public.
         //"publicly_queryable"    => false, //Default is inherited from $public.
         'show_ui'               => true, //Default is value of $public.
@@ -58,7 +58,7 @@ function odsoptions_post_type()
         'capability_type'       => 'page',
         //'capabilities'          => array(''),
         //'map_meta_cap'          => false, //Default false.
-        'supports'              => array('title'), // 'title', 'editor', 'comments', 'revisions', 'trackbacks', 'author', 'excerpt', 'page-attributes', 'thumbnail', 'custom-fields', and 'post-formats'
+        'supports'              => array('title', 'page-attributes'), // 'title', 'editor', 'comments', 'revisions', 'trackbacks', 'author', 'excerpt', 'page-attributes', 'thumbnail', 'custom-fields', and 'post-formats'
         //'register_meta_box_cb'  => //Default null.
         //'taxonomies'            => array(''),
         //'has_archive'           => false, //Default false.
@@ -69,7 +69,7 @@ function odsoptions_post_type()
     register_post_type('optionspage', $args);
 }
 
-add_action('init', 'odsoptions_post_type', 0);
+add_action('init', 'ods_options_post_type', 0);
 
 // END PART
 
@@ -79,20 +79,16 @@ add_action('init', 'odsoptions_post_type', 0);
  * Add a post display state for special pages in the page list table.
  */
 
-function add_display_post_states($post_states, $post)
+function ods_options_add_display_post_states($post_states, $post)
 {
-    if (ods_options_id('Dashboard') == $post->ID) {
+    if (ods_options_id('dashboard') == $post->ID) {
         $post_states['options_page_for_dashboard'] = __('Dashboard Settings Page', 'oneds-start');
-    }
-
-    if (ods_options_id('Theme') == $post->ID) {
-        $post_states['options_page_for_theme'] = __('Theme Settings Page', 'oneds-start');
     }
 
     return $post_states;
 }
 
-add_filter('display_post_states', 'add_display_post_states', 10, 2);
+add_filter('display_post_states', 'ods_options_add_display_post_states', 10, 2);
 
 // END PART
 
@@ -102,11 +98,11 @@ add_filter('display_post_states', 'add_display_post_states', 10, 2);
  * remove menu page
  */
 
-function ods_optionspages_remove_menus()
+function ods_options_remove_menus()
 {
     remove_menu_page('edit.php?post_type=optionspage');
 }
 
-add_action('admin_menu', 'ods_optionspages_remove_menus');
+add_action('admin_menu', 'ods_options_remove_menus');
 
 // END PART
